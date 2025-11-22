@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    gap: 40px;
+    /* افزایش فاصله بین باکس‌ها */
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container1 {
+    display: flex;
+    gap: 90px;
+    /* افزایش فاصله بین باکس‌ها */
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.container1 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.box1 a {
+    text-decoration: none;
+}
+
+.box1 {
+    width: 1150px;
+    height: 180px;
+    background: linear-gradient(to left, #ff9800, #ffcc80);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25px;
+}
+
+.box1 img {
+    width: 100px;
+    /* تنظیم اندازه تصویر */
+    height: auto;
+    border-radius: 10px;
+    /* گرد کردن گوشه‌های تصویر */
+}
+
+
+
+
+.box {
+    width: 550px;
+    height: 180px;
+    background: linear-gradient(to left, #ff9800, #ffcc80);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25px;
+}
+
+.box img {
+    width: 100px;
+    /* تنظیم اندازه تصویر */
+    height: auto;
+    border-radius: 10px;
+    /* گرد کردن گوشه‌های تصویر */
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.text {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    /* فاصله بین متن و عکس */
+    padding-right: 5px;
+}
